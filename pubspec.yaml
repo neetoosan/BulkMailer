@@ -1,0 +1,74 @@
+name: bulk_mailer
+description: A professional bulk email marketing platform
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.0
+  cloud_firestore: ^5.4.4
+  firebase_storage: ^12.3.3
+  cloud_functions: ^5.1.3
+
+  # Google Auth & Gmail API
+  google_sign_in: ^6.2.1
+  googleapis: ^13.2.0
+  googleapis_auth: ^1.6.0
+  http: ^1.2.2
+
+  # State management
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+
+  # Navigation
+  go_router: ^14.3.0
+
+  # Excel import
+  excel: ^4.0.3
+
+  # File picker
+  file_picker: ^8.1.2
+
+
+  # Charts
+  fl_chart: ^0.69.0
+
+  # Data tables
+  data_table_2: ^2.5.15
+
+  # Utilities
+  intl: ^0.20.2
+  uuid: ^4.5.1
+  shared_preferences: ^2.3.2
+  collection: ^1.18.0
+  url_launcher: ^6.3.0
+  flutter_svg: ^2.0.10+1
+  shimmer: ^3.0.0
+  gap: ^3.0.1
+  timeago: ^3.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.12
+  riverpod_generator: ^2.4.3
+  custom_lint: ^0.7.0
+  riverpod_lint: ^2.3.13
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+
+
